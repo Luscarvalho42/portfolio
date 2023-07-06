@@ -2,14 +2,15 @@ import { NextPage } from "next";
 import Image from "next/image";
 import { ReactNode } from "react";
 import { TagProjeto } from "./TagProjeto";
+import { Botao } from "./Botao";
 
 interface Projeto {
-  nome?: String;
-  imagem?: String;
-  repositorio?: String;
-  demo?: String;
-  children?: ReactNode;
-  tags?: String[];
+  nome: string;
+  imagem: string;
+  repositorio: string;
+  demo: string;
+  descricao: string;
+  tags: string[];
 }
 
 export const CartaoProjeto: NextPage<Projeto> = ({
@@ -18,7 +19,7 @@ export const CartaoProjeto: NextPage<Projeto> = ({
   repositorio,
   demo,
   tags,
-  children,
+  descricao,
 }) => {
   return (
     <main className="rounded-lg border-2 p-4 self-stretch border-zinc-900 dark:border-zinc-200">
@@ -32,33 +33,23 @@ export const CartaoProjeto: NextPage<Projeto> = ({
         />
 
         <div className="w-72 sm:w-72 flex flex-col justify-between">
-          <h3 className="text-xl mt-2 font-bold sm:mt-0">{nome}</h3>
+          <h3 className="font-bold text-lg sm:mt-0">{nome}</h3>
           <div className="flex gap-2">
             {tags?.sort().map((tag, index) => (
-              <TagProjeto valor={tag as string} key={`${index}_${tag}`} />
+              <TagProjeto valor={tag} key={`${index}_${tag}`} />
             ))}
           </div>
-          <p className="my-2">{children}</p>
+          <p className="my-2">{descricao}</p>
           <div className="flex justify-between">
             {demo ? (
-              <a
-                href={demo as string}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded px-2 py-1 font-medium ease-in-out duration-300 bg-slate-800 hover:bg-slate-700 text-zinc-200 dark:bg-slate-200 dark:hover:bg-slate-400 dark:text-zinc-800"
-              >
+              <Botao href={demo} target="_blank" tipo="normal">
                 Domonstração
-              </a>
+              </Botao>
             ) : null}
             {repositorio ? (
-              <a
-                href={repositorio as string}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded px-2 py-1 font-medium ease-in-out duration-300 bg-slate-800 hover:bg-slate-700 text-zinc-200 dark:bg-slate-200 dark:hover:bg-slate-400 dark:text-zinc-800"
-              >
+              <Botao href={repositorio} target="_blank" tipo="normal">
                 Repositório
-              </a>
+              </Botao>
             ) : null}
           </div>
         </div>

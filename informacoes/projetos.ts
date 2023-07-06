@@ -1,13 +1,13 @@
 interface Projeto {
-  nome: String;
-  imagem: String;
-  repositorio: String;
-  demo: String;
-  descricao: String;
-  tags: String[];
+  nome: string;
+  imagem: string;
+  repositorio: string;
+  demo: string;
+  descricao: string;
+  tags: string[];
 }
 
-export const projetos: Projeto[] = [
+export const listaProjetos: Projeto[] = [
   {
     nome: "Validador de CPF/CNPJ",
     imagem: "/validador-cpf-cnpj.webp",

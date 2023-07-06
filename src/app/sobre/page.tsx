@@ -1,11 +1,13 @@
 "use client";
 
 import SobreMim from "@/components/SobreMim";
-import Link from "next/link";
-import { ChevronLeft } from "react-feather";
-
-import { motion, AnimatePresence } from "framer-motion";
 import Projetos from "@/components/Projetos";
+import Carreira from "@/components/Carreira";
+
+import { ChevronLeft } from "react-feather";
+import { motion, AnimatePresence } from "framer-motion";
+import { Botao } from "@/components/Botao";
+
 export default function Sobre() {
   return (
     <AnimatePresence>
@@ -15,16 +17,15 @@ export default function Sobre() {
         animate={{ y: 0 }}
         transition={{ duration: 0.3 }}
       >
-        <Link href="/">
-          <button className="flex items-center gap-1 rounded border-2 border-zinc-900  text-zinc-900 dark:text-zinc-200 dark:border-zinc-200  px-2 py-1">
-            <ChevronLeft style={{ marginLeft: "-8px" }} />
-            Voltar
-          </button>
-        </Link>
+        <Botao href="/" tipo="simples">
+          <ChevronLeft style={{ marginLeft: "-8px" }} />
+          Voltar
+        </Botao>
       </motion.header>
       <main className="bg-slate-200 text-zinc-900 dark:bg-slate-800 dark:text-zinc-200 overflow-x-hidden">
         <SobreMim />
         <Projetos />
+        <Carreira />
       </main>
     </AnimatePresence>
   );
