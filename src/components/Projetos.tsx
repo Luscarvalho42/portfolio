@@ -26,6 +26,7 @@ export default function Projetos() {
                   repositorio={repositorio}
                   demo={demo}
                   tags={tags}
+                  key={repositorio as string}
                 >
                   {descricao}
                 </CartaoProjeto>

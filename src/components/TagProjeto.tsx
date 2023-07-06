@@ -1,11 +1,15 @@
 import { NextPage } from "next";
 
 interface Tag {
-  valor: String;
+  valor: string;
+}
+
+interface Cor {
+  [key: string]: string;
 }
 
 export const TagProjeto: NextPage<Tag> = ({ valor }) => {
-  const cor: Object = {
+  const cor: Cor = {
     HTML: "text-white bg-orange-500",
     CSS: "text-white bg-blue-500",
     JavaScript: "text-black bg-yellow-400",
