@@ -9,19 +9,19 @@ export const listaRealizacoes: Realizacao[] = [
     titulo: "Organizador Pint of Science",
     imagem: "/pint-of-science.webp",
     descricao:
-      "Desde o ensino médio já participava do projeto de divulgação científicia 'A Magia da Física', o qual realiza o Pint of Science, o maior evento de divulgação científica do mundo, em Lavras. Em 2022 tive a honra de ser organizador do eveto, o primeiro presencial depois da pandemia.",
+      "Desde o ensino médio já participava do projeto de divulgação científica 'A Magia da Física', o qual realiza o Pint of Science, o maior evento de divulgação científica do mundo, em Lavras. Em 2022, tive a honra de ser organizador do evento, o primeiro presencial depois da pandemia.",
   },
   {
     titulo: "98 no TCC",
     imagem: "/tcc.webp",
     descricao:
-      "No dia 16/12/2022 apresentei meu TCC, orientado pelo professor Janderson Rodrigo De Oliveira, para a professora Paula Christina Figueira Cardoso e para o professor Paulo Afonso Parreira Júnior e obtive a nota 98/100.",
+      "No dia 16/12/2022, apresentei meu TCC, orientado pelo professor Janderson Rodrigo De Oliveira, para a professora Paula Christina Figueira Cardoso e para o professor Paulo Afonso Parreira Júnior e obtive a nota 98/100.",
   },
   {
     titulo: "Mentor no projeto NAVE",
     imagem: "/nave.webp",
     descricao:
-      "Durante minha carreira na Vega tive a oportunidade de ser mentor de cinco pessoas incríveis do projeto NAVE, oferecido pela Oi Futuro. Foi muito gratificante ver o crescimento deles até a efetivação de todos no final do projeto.",
+      "Durante minha carreira na Vega, tive a oportunidade de ser mentor de cinco pessoas incríveis do projeto NAVE, oferecido pela Oi Futuro. Foi muito gratificante ver o crescimento deles até a efetivação de todos no final do projeto.",
   },
   {
     titulo: "Outros",

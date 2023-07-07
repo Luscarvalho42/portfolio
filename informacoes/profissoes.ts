@@ -59,10 +59,10 @@ export const listaProfissoes: Profissao[] = [
     periodo: "fevereiro de 2021 - agosto de 2021",
     local: {
       nome: "Universidade Federal de Lavras",
-      site: "https://vegamonitoramento.com.br/",
+      site: "https://ufla.br/",
     },
     descricao:
-      "Fui responsável por criar e revisar materiais da disciplina, lecionada Python, além de dar aulas de mentoria para os colegas do curso.",
+      "Fui responsável por criar e revisar materiais da disciplina, lecionada em Python, além de dar aulas de mentoria para os colegas do curso.",
     tags: ["Docência", "Mentoria", "Python"],
   },
 ];

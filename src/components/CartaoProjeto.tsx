@@ -42,7 +42,7 @@ export const CartaoProjeto: NextPage<Projeto> = ({
           <div className="flex justify-between">
             {demo ? (
               <Botao href={demo} target="_blank" tipo="normal">
-                Domonstração
+                Demonstração
               </Botao>
             ) : null}
             {repositorio ? (
