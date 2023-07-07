@@ -24,6 +24,7 @@ export default function Projetos() {
 
   return (
     <motion.section
+      id="projetos"
       className="max-w-screen-2xl min-h-screen p-4 flex flex-col justify-center itens-center gap-8 m-auto mb-20"
       initial={{ opacity: 0, y: 15 }}
       animate={{ opacity: 1, y: 0 }}

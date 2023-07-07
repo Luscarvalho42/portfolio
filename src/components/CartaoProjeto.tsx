@@ -1,6 +1,5 @@
 import { NextPage } from "next";
 import Image from "next/image";
-import { ReactNode } from "react";
 import { TagProjeto } from "./TagProjeto";
 import { Botao } from "./Botao";
 

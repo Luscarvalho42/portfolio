@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 export default function SobreMin() {
   return (
     <motion.section
+      id="sobre"
       className="h-screen w-screen flex items-center justify-center md:text-lg"
       initial={{ opacity: 0, y: 15 }}
       animate={{ opacity: 1, y: 0 }}
@@ -45,6 +46,12 @@ export default function SobreMin() {
             entre outras coisas. Porém, o que gosto mesmo é de passar horas
             programando.
           </p>
+          <p className="text-sm italic mt-6">
+            "Raramente estou mais feliz do que quando passo um dia inteiro a
+            programar o meu computador para fazer automaticamente uma tarefa que
+            de outra forma demoraria uns bons dez segundos a fazer à mão."
+          </p>
+          <p className="float-right text-sm">Douglas Noel Adans</p>
         </div>
       </main>
     </motion.section>

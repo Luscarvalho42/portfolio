@@ -14,7 +14,7 @@ export const listaProfissoes: Profissao[] = [
     cargo: "Gestor de TI",
     periodo: "maio de 2023 - atualmente",
     local: {
-      nome: "Prefeitura municipal de lavras",
+      nome: "Prefeitura Municipal de Lavras",
       site: "https://www.lavras.mg.gov.br/",
     },
     descricao:
@@ -53,5 +53,16 @@ export const listaProfissoes: Profissao[] = [
     descricao:
       "Estive presente nas primeiras sprints da Plataforma Lyra, auxiliando no desenvolvimento da base do projeto.",
     tags: ["Vue.js", "Java", "JavaScript"],
+  },
+  {
+    cargo: "Monitor da disciplina Fundamentos de Programação I",
+    periodo: "fevereiro de 2021 - agosto de 2021",
+    local: {
+      nome: "Universidade Federal de Lavras",
+      site: "https://vegamonitoramento.com.br/",
+    },
+    descricao:
+      "Fui responsável por criar e revisar materiais da disciplina, lecionada Python, além de dar aulas de mentoria para os colegas do curso.",
+    tags: ["Docência", "Mentoria", "Python"],
   },
 ];

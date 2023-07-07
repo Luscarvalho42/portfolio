@@ -1,9 +1,14 @@
 "use client";
-import Link from "next/link";
 import imgInicial from "../../public/inicial.png";
 import imgRuido from "../../public/ruido.svg";
+import imgWhatsapp from "../../public/whatsapp.svg";
 
 import { motion, AnimatePresence } from "framer-motion";
+import { Botao } from "@/components/Botao";
+import BotaoBaixarPDF from "@/components/BotaoBaixarPDF";
+import { GitHub, Linkedin, Mail, Phone } from "react-feather";
+import { BotaoRedeSocial } from "@/components/BotaoRedeSocial";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -38,22 +43,33 @@ export default function Home() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 1.5 }}
-          className="flex gap-8 sm:mt-8"
+          className="flex flex-col gap-8 sm:mt-8"
         >
-          <Link href="/sobre">
-            <button className="rounded border-2 border-rose-600 text-rose-600 font-medium px-2 py-1 hover:bg-rose-600 hover:text-white duration-300">
+          <div className="flex gap-8 items-center justify-center">
+            <BotaoRedeSocial href="https://google.com" cor="bg-sky-500">
+              <Linkedin />
+            </BotaoRedeSocial>
+            <BotaoRedeSocial href="" cor="bg-neutral-500">
+              <GitHub />
+            </BotaoRedeSocial>
+            <BotaoRedeSocial href="" cor="bg-rose-300">
+              <Mail />
+            </BotaoRedeSocial>
+            <BotaoRedeSocial href="" cor="bg-green-500">
+              <Image
+                src={imgWhatsapp.src}
+                width={24}
+                height={24}
+                alt="Logo whatsapp"
+              />
+            </BotaoRedeSocial>
+          </div>
+          <div className="flex items-center gap-4">
+            <BotaoBaixarPDF />
+            <Botao href="/sobre" tipo="primario">
               Sobre mim
-            </button>
-          </Link>
-          <Link href="/contato">
-            <motion.button
-              whileHover={{ y: -3 }}
-              transition={{ duration: 0.1 }}
-              className="rounded border-2rounded border-2 border-rose-600 text-white bg-rose-600 font-medium px-2 py-1 drop-shadow-md duration-300 hover:drop-shadow-xl hover:bg-rose-500 hover:border-rose-500 "
-            >
-              Entre em contato
-            </motion.button>
-          </Link>
+            </Botao>
+          </div>
         </motion.section>
       </motion.main>
     </AnimatePresence>
