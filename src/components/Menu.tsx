@@ -32,9 +32,6 @@ export default function Menu() {
           <Botao href="#realizacoes" tipo="simples">
             Realizações
           </Botao>
-          {/* <Botao href="#contato" tipo="simples">
-            Contato
-          </Botao> */}
         </div>
       </div>
     </motion.header>
