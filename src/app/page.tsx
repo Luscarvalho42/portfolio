@@ -46,16 +46,32 @@ export default function Home() {
           className="flex flex-col gap-8 sm:mt-8"
         >
           <div className="flex gap-8 items-center justify-center">
-            <BotaoRedeSocial href="https://google.com" cor="bg-sky-500">
+            <BotaoRedeSocial
+              href="https://www.linkedin.com/in/lucas-felizardo/"
+              cor="bg-sky-500"
+              title="/lucas-felizardo"
+            >
               <Linkedin />
             </BotaoRedeSocial>
-            <BotaoRedeSocial href="" cor="bg-neutral-500">
+            <BotaoRedeSocial
+              href="https://github.com/Luscarvalho42"
+              cor="bg-neutral-500"
+              title="/Luscarvalho42"
+            >
               <GitHub />
             </BotaoRedeSocial>
-            <BotaoRedeSocial href="" cor="bg-rose-300">
+            <BotaoRedeSocial
+              href="mailto:lucasdec.felizardo@gmail.com"
+              cor="bg-rose-300"
+              title="lucasdec.felizardo@gmail.com"
+            >
               <Mail />
             </BotaoRedeSocial>
-            <BotaoRedeSocial href="" cor="bg-green-500">
+            <BotaoRedeSocial
+              href="https://api.whatsapp.com/send?phone=5535935059029&text=Oi!%20Vim%20atrav%C3%A9s%20do%20seu%20site%20%F0%9F%98%84"
+              cor="bg-green-500"
+              title="(35) 93505-9029"
+            >
               <Image
                 src={imgWhatsapp.src}
                 width={24}

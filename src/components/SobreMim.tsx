@@ -47,9 +47,10 @@ export default function SobreMin() {
             programando.
           </p>
           <p className="text-sm italic mt-6">
-            "Raramente estou mais feliz do que quando passo um dia inteiro a
-            programar o meu computador para fazer automaticamente uma tarefa que
-            de outra forma demoraria uns bons dez segundos a fazer à mão."
+            &quot;Raramente estou mais feliz do que quando passo um dia inteiro
+            a programar o meu computador para fazer automaticamente uma tarefa
+            que de outra forma demoraria uns bons dez segundos a fazer à
+            mão.&quot;
           </p>
           <p className="float-right text-sm">Douglas Noel Adans</p>
         </div>
