@@ -45,12 +45,12 @@ export default function BarraNavegacao() {
               <p className="text-sm font-thin">Realizações</p>
             </div>
           </Botao>
-          <Botao href="#contato" tipo="simples">
+          {/* <Botao href="#contato" tipo="simples">
             <div className="flex flex-col items-center">
               <PhoneOutgoing />
               <p className="text-sm font-thin">Contato</p>
             </div>
-          </Botao>
+          </Botao> */}
         </div>
       </div>
     </motion.header>
