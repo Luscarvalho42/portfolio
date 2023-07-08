@@ -23,7 +23,7 @@ export const listaProjetos: Projeto[] = [
     repositorio: "https://github.com/Luscarvalho42/quiz-avatar",
     demo: "https://quiz-avatar-luscarvalho42.vercel.app/",
     descricao: "Desenvolvido durante a Imersão React da Alura.",
-    tags: ["React", "Styled Components"],
+    tags: ["React", "StyledComponents"],
   },
   {
     nome: "Jogo da cobrinha",
