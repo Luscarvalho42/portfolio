@@ -9,7 +9,7 @@ export const listaRealizacoes: Realizacao[] = [
     titulo: "Organizador Pint of Science",
     imagem: "/pint-of-science.webp",
     descricao:
-      "Desde o ensino médio já participava do projeto de divulgação científica 'A Magia da Física', o qual realiza o Pint of Science, o maior evento de divulgação científica do mundo, em Lavras. Em 2022, tive a honra de ser organizador do evento, o primeiro presencial depois da pandemia.",
+      "Desde o ensino médio já participava do projeto de divulgação científica 'A Magia da Física', o qual realiza o Pint of Science, o maior evento de divulgação científica do mundo, em Lavras. Em 2023, tive a honra de ser organizador do evento, o primeiro presencial depois da pandemia.",
   },
   {
     titulo: "98 no TCC",
