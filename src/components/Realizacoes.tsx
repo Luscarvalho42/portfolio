@@ -20,7 +20,7 @@ export default function Realizacoes() {
           />
         </div>
         <h3 className="font-bold text-lg sm:mt-0 mb-1">{titulo}</h3>
-        <p className="w-[300px] text-sm indent-8 hyphens-auto">{descricao}</p>
+        <p className="w-[300px] text-sm indent-8">{descricao}</p>
       </div>
     )
   );

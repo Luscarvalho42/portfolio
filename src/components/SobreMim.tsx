@@ -36,7 +36,7 @@ export default function SobreMin() {
             ease: "easeInOut",
           }}
         ></motion.div>
-        <div className="indent-8 hyphens-auto md:w-1/2" lang="pt-br">
+        <div className="indent-8 md:w-1/2" lang="pt-br">
           <p>
             Oi! Eu sou o Lucas 👋, um cientista da computação apaixonado por
             programar e ensinar pessoas a programarem.
